@@ -19,7 +19,7 @@ define('WP_ENVIRONMENT_TYPE', env('WP_ENVIRONMENT_TYPE', 'production'));
 define('WP_DEFAULT_THEME', env('WP_DEFAULT_THEME', 'wordplate'));
 
 // For developers: WordPress debugging mode.
-$isDebugModeEnabled = env('WP_DEBUG', false);
+$isDebugModeEnabled = true;
 define('WP_DEBUG', $isDebugModeEnabled);
 define('WP_DEBUG_LOG', env('WP_DEBUG_LOG', false));
 define('WP_DEBUG_DISPLAY', env('WP_DEBUG_DISPLAY', $isDebugModeEnabled));
