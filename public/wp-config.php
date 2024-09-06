@@ -10,6 +10,8 @@ use Symfony\Component\HttpFoundation\Request;
 // Load the environment variables.
 Dotenv::createImmutable(realpath(__DIR__ . '/../'))->safeLoad();
 
+define('FS_METHOD', 'direct');
+
 // Set the environment type.
 define('WP_ENVIRONMENT_TYPE', env('WP_ENVIRONMENT_TYPE', 'production'));
 
