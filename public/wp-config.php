@@ -69,7 +69,7 @@ define('DISABLE_WP_CRON', env('DISABLE_WP_CRON', false));
 define('DISALLOW_FILE_EDIT', env('DISALLOW_FILE_EDIT', true));
 
 // Disable plugin and theme updates and installation from the dashboard.
-define('DISALLOW_FILE_MODS', env('DISALLOW_FILE_MODS', true));
+define('DISALLOW_FILE_MODS', env('DISALLOW_FILE_MODS', false));
 
 // Cleanup WordPress image edits.
 define('IMAGE_EDIT_OVERWRITE', env('IMAGE_EDIT_OVERWRITE', true));
