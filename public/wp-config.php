@@ -25,10 +25,10 @@ define('SCRIPT_DEBUG', env('SCRIPT_DEBUG', $isDebugModeEnabled));
 
 // The database configuration with database name, username, password,
 // hostname charset and database collate type.
-define('DB_NAME', env('DB_NAME'));
-define('DB_USER', env('DB_USER'));
-define('DB_PASSWORD', env('DB_PASSWORD'));
-define('DB_HOST', env('DB_HOST', '127.0.0.1'));
+define('DB_NAME', env('DB_NAME', 'exampledb'));
+define('DB_USER', env('DB_USER', 'exampleuser'));
+define('DB_PASSWORD', env('DB_PASSWORD', 'examplepass'));
+define('DB_HOST', env('DB_HOST', 'db'));
 define('DB_CHARSET', env('DB_CHARSET', 'utf8mb4'));
 define('DB_COLLATE', env('DB_COLLATE', 'utf8mb4_unicode_ci'));
 

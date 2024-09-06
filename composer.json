@@ -1,6 +1,6 @@
 {
-    "name": "vinkla/wordplate",
-    "description": "The WordPlate boilerplate",
+    "name": "lenny4/franken-php-wordplate",
+    "description": "The WordPlate FrankenPHP Caddy boilerplate",
     "license": "MIT",
     "type": "project",
     "keywords": [
